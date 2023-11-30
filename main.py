@@ -7,7 +7,7 @@ import numpy as np
 
 def get_mikolajkowy_df():
     givers = ["Weronika", "Kuba", "Marta", "Szymon", "Emilka", "Filip", "Kacper", "Sławek", "Asia", "Sylwia", "Artur",
-              "Axel", "Maciek", "Łukasz", "Kuczaj"]
+              "Axel", "Maciek", "Łukasz", "Kuczaj", "Helenka"]
     conflicted_people = [("Weronika", "Kuba"), ("Marta", "Szymon"), ("Emilka", "Filip"), ("Sławek", "Asia"),
                          ("Sylwia", "Artur")]
     conflict = conflicted_people + [(y, x) for x, y in conflicted_people]
