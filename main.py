@@ -43,7 +43,7 @@ st.title('Mikołajki :))))')
 
 colA1, colA2 = st.columns(2)
 
-names_value = "Sławek\nAxel\nKacper\nKuba\nMaciek\nMagda\nMania\nKuczaj\nPiotrula\nSzymon\nWera\nŁukasz\nSylwia\nArtur"
+names_value = "Sławek\nAxel\nKacper\nKuba\nMaciek\nMagda\nMania\nKuczaj\nPiotrula\nSzymon\nWera\nŁukasz\nSylwia\nArtur\nNikola"
 not_together_value = "Kuczaj,Magda\nMaciek,Mania\nKuba,Wera\nSylwia,Artur"
 
 with colA1:
