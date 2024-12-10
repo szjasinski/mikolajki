@@ -43,11 +43,14 @@ st.title('Mikołajki :))))')
 
 colA1, colA2 = st.columns(2)
 
+names_value = "Sławek\nAxel\nKacper\nKuba\nMaciek\nMagda\nMania\nKuczaj\nPiotrula\nSzymon\nWera\nŁukasz\nSylwia\nArtur"
+not_together_value = "Kuczaj,Magda\nMaciek,Mania\nKuba,Wera\nSylwia\nArtur"
+
 with colA1:
-    names_input = st.text_area("Enter names in separate lines", value="Kasia\nZosia\nJanek\nStaś\n", height=400)
+    names_input = st.text_area("Osoby", value=names_value, height=400)
 
 with colA2:
-    not_together_input = st.text_area("Enter pairs that can't be together", value="Kasia,Zosia\nJanek,Staś", height=400)
+    not_together_input = st.text_area("Oni sie nie wylosuja", value=not_together_value, height=400)
 
 
 if st.button("ZATWIERDZ OSOBY I PARY"):
